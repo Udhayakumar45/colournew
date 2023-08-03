@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 72px;
+    font-weight: 600;
+    color: rgb(45, 44, 44);
+    opacity: .8;
+}
+body{
+    background-size: absolute;
+     
+    background-image: rgb(41, 161, 149),url('https://media.istockphoto.com/id/535403859/photo/dancing-at-disco.webp?b=1&s=612x612&w=0&k=20&c=AT5jHnpqZ55vKjeJfuArp24OrRt8R2mAHT_rVPYFv0A=');
+
+    
+    
+}
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
